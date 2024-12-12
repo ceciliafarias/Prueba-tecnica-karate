@@ -1,0 +1,9 @@
+Con el ejercicio se evalua como se comporta y funciona un API REST, garantizando la integridad de los datos.
+En el flujo de Creacion se encontro que en el campo type la respuesta es "unknown" y este no hace referencia a la accion realizada,
+el codigo de respuesta es un 200, pero podria ser un 201 el cual indica la correcta creacion.
+
+En el flujo de busqueda de un usuario los codigos de respuestas son consistentes.
+
+En el flujo de eliminacion de usuario muesra el username eliminado lo que da una buena retroalimentacion.
+
+Cuando se actualiza en la respuesta se retornan los campos actulizados de esta forma el usuario tiene el conocimiento de lo actulizado.
