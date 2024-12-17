@@ -9,9 +9,8 @@ import com.intuit.karate.Results;
 
 public class AppTest {
     @Test
-    public void testParalle() throws Exception {
-        String tags = "@" + System.getProperty("karate.tags", "@createUser");
-        System.out.println(tags);
+    public void testParallel() {
+        String tags = "@" + System.getProperty("karate.tags", "userCrud");
 
         Results results = Runner.path("classpath:com/karate/tecnica")
             .tags(tags)
